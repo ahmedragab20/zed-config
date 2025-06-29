@@ -1,0 +1,17 @@
+{
+  "Log to console": {
+    "prefix": "clog",
+    "body": ["console.log(${1})", "$0"],
+    "description": "Logs to console"
+  },
+  "Log Error to console": {
+    "prefix": "cerr",
+    "body": ["console.error(${1})", "$0"],
+    "description": "Logs error to console"
+  },
+  "Log Warning to console": {
+    "prefix": "cwarn",
+    "body": ["console.warn(${1})", "$0"],
+    "description": "Logs warning to console"
+  }
+}

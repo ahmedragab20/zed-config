@@ -1,0 +1,267 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_text_threads": false
+  },
+  "experimental.theme_overrides": {
+    "background": null,
+    "border": "#36424C",
+    "border.variant": "#36424C",
+    "conflict": "#D47D7D",
+    "created": "#489D8F",
+    "created.background": null,
+    "created.border": null,
+    "deleted": "#AA464C",
+    "deleted.background": null,
+    "deleted.border": null,
+    "drop_target.background": "#32424C",
+    "editor.active_line_number": "#B5B3AD",
+    "editor.active_line.background": "#1C364A",
+    "editor.background": "#152837",
+    "editor.document_highlight.bracket_background": "#264862",
+    "editor.foreground": "#B5B3AD",
+    "editor.gutter.background": null,
+    "editor.highlighted_line.background": "#1C364A",
+    "editor.line_number": "#62717D",
+    "editor.subheader.background": null,
+    "element.background": null,
+    "elevated_surface.background": null,
+    "error": "#AA464C",
+    "error.background": "#152837",
+    "ghost_element.background": null,
+    "ghost_element.hover": null,
+    "ghost_element.active": null,
+    "ghost_element.selected": null,
+    "ghost_element.disabled": null,
+    "hint": "#6D8FB7",
+    "icon": null,
+    "icon.muted": null,
+    "icon.disabled": "#62717D",
+    "icon.placeholder": null,
+    "icon.accent": "#A6D0D9",
+    "ignored": "#62717D",
+    "ignored.background": null,
+    "ignored.border": null,
+    "info": "#6D8FB7",
+    "info.background": "#5a93a220",
+    "info.border": null,
+    "link_text.hover": "#62717D",
+    "modified": "#D59E7B",
+    "modified.background": null,
+    "modified.border": null,
+    "panel.background": null,
+    "renamed": null,
+    "renamed.background": null,
+    "renamed.border": null,
+    "search.match_background": "#23435D",
+    "scrollbar.thumb.hover_background": null,
+    "scrollbar.thumb.border": "#36424C",
+    "scrollbar.track.background": null,
+    "scrollbar.track.border": "#36424C",
+    "status_bar.background": "#1C364ACB",
+    "success": "#489D8F",
+    "success.background": null,
+    "success.border": null,
+    "surface.background": null,
+    "tab.active_background": "#152837",
+    "tab.inactive_background": "#1C364A",
+    "tab_bar.background": "#1C364A",
+    "title_bar.background": null,
+    "toolbar.background": "#152837",
+    "terminal.background": null,
+    "terminal.foreground": "#B5B3AD",
+    "terminal.ansi.black": "#606C76CD",
+    "terminal.ansi.bright_black": "#606C76",
+    "terminal.ansi.blue": "#6D8FB7CD",
+    "terminal.ansi.bright_blue": "#6D8FB7",
+    "terminal.ansi.cyan": "#A6D0D9CD",
+    "terminal.ansi.bright_cyan": "#A6D0D9",
+    "terminal.ansi.green": "#489D8FCB",
+    "terminal.ansi.bright_green": "#489D8F",
+    "terminal.ansi.magenta": "#A296C0",
+    "terminal.ansi.bright_magenta": "#99a1af",
+    "terminal.ansi.red": "#AA464CCD",
+    "terminal.ansi.bright_red": "#AA464C",
+    "terminal.ansi.white": "#E1E1DECC",
+    "terminal.ansi.bright_white": "#E1E1DE",
+    "terminal.ansi.yellow": "#D59E7BCC",
+    "terminal.ansi.bright_yellow": "#D59E7B",
+    "text": "#B5B3AD",
+    "text.accent": "#6D8FB7",
+    "text.disabled": "#62717D",
+    "text.muted": null,
+    "text.placeholder": "#62717D",
+    "unreachable": null,
+    "unreachable.background": null,
+    "unreachable.border": null,
+    "version_control.added": "#489D8F",
+    "version_control.modified": "#D59E7B",
+    "version_control.deleted": "#AA464C",
+    "warning": "#D59E7B",
+    "warning.background": "#152837",
+    "warning.border": "#D59E7B",
+    "players": [
+      {
+        "cursor": "#B5B3AD",
+        "selection": "#1E394E",
+        "background": "#1E394E"
+      }
+    ],
+    "syntax": {
+      "attribute": {
+        "color": "#99a1af",
+        "font_style": null,
+        "font_weight": null
+      },
+      "constant": {
+        "color": "#A296C0",
+        "font_style": null,
+        "font_weight": null
+      },
+      "constructor": {
+        "color": "#A296C0",
+        "font_style": null,
+        "font_weight": null
+      },
+      "comment": {
+        "color": "#62717D",
+        "font_style": "italic",
+        "font_weight": null
+      },
+      "function": {
+        "color": "#6D8FB7",
+        "font_style": null,
+        "font_weight": null
+      },
+      "keyword": {
+        "color": "#D47D7D",
+        "font_style": null,
+        "font_weight": null
+      },
+      "number": {
+        "color": "#A6D0D9",
+        "font_style": null,
+        "font_weight": null
+      },
+      "operator": {
+        "color": "#A296C0",
+        "font_style": null,
+        "font_weight": null
+      },
+      "property": {
+        "color": "#99a1af",
+        "font_style": null,
+        "font_weight": null
+      },
+      "string": {
+        "color": "#489D8F",
+        "font_style": null,
+        "font_weight": null
+      },
+      "tag": {
+        "color": "#D59E7B",
+        "font_style": null,
+        "font_weight": null
+      },
+      "type": {
+        "color": "#D59E7B",
+        "font_style": null,
+        "font_weight": null
+      },
+      "variable": {
+        "color": null,
+        "font_style": null,
+        "font_weight": null
+      }
+    }
+  },
+  "bottom_dock_layout": null,
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false,
+    "agent_review": true,
+    "code_actions": false
+  },
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_smartcase_find": true,
+    "use_multiline_find": true,
+    "highlight_on_yank_duration": 200
+  },
+  "relative_line_numbers": true,
+  "project_panel": {
+    "dock": "right",
+    "scrollbar": null,
+    "button": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "show_signature_help_after_edits": false,
+  "completions": {
+    "provider": "zed"
+  },
+  "agent": {
+    "button": false,
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    },
+    "version": "2"
+  },
+  "features": {
+    "edit_prediction_provider": "zed",
+    "copilot": true
+  },
+  "prettier": null,
+  "ui_font_size": 27,
+  "buffer_font_size": 29,
+  "agent_font_size": 27,
+  "buffer_font_family": "DankMono Nerd Font Mono",
+  "ui_font_family": "DankMono Nerd Font Mono",
+  "theme": "Gentle Dark",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Mocha",
+    "dark": "Zed (Default)"
+  }
+}
