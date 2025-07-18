@@ -1,55 +1,90 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
-    "edit_predictions": {
-        "disabled_globs": [],
-        "mode": "subtle",
-        "copilot": {
-            "proxy": null,
-            "proxy_no_verify": null
-        },
-        "enabled_in_assistant": false
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
     },
-    "vim_mode": true,
-    "vim": {
-        "use_system_clipboard": "never"
+    "enabled_in_text_threads": false
+  },
+  "experimental.theme_overrides": {
+    "element.background": "#323942"
+  },
+  "bottom_dock_layout": null,
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false,
+    "agent_review": true,
+    "code_actions": false
+  },
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_smartcase_find": true,
+    "use_multiline_find": true,
+    "highlight_on_yank_duration": 200
+  },
+  "relative_line_numbers": true,
+  "project_panel": {
+    "dock": "right",
+    "scrollbar": null,
+    "button": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "show_signature_help_after_edits": false,
+  "completions": {
+    "provider": "zed"
+  },
+  "agent": {
+    "button": false,
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
     },
-    "relative_line_numbers": true,
-    "project_panel": {
-        "dock": "right",
-        "scrollbar": null
-    },
-    "completions": {
-        "provider": "zed",
-        "model": "claude-3-7-sonnet-latest"
-    },
-    "assistant": {
-        "default_profile": "ask",
-        "default_model": {
-            "provider": "zed.dev",
-            "model": "claude-3-7-sonnet-latest"
-        },
-        "version": "2"
-    },
-    "features": {
-        "edit_prediction_provider": "zed",
-        "copilot": true
-    },
-    "prettier": null,
-    "ui_font_size": 18,
-    "buffer_font_size": 16,
-    "buffer_font_family": "DankMono Nerd Font Mono",
-    "ui_font_family": "DankMono Nerd Font Mono",
-    "theme": "Nordfox",
-    "icon_theme": {
-        "mode": "system",
-        "light": "Catppuccin Mocha",
-        "dark": "Zed (Default)"
-    }
+    "version": "2"
+  },
+  "features": {
+    "edit_prediction_provider": "zed",
+    "copilot": true
+  },
+  "prettier": null,
+  "ui_font_size": 30,
+  "buffer_font_size": 33,
+  "agent_font_size": 30,
+  "buffer_font_family": "DankMono Nerd Font Mono",
+  "ui_font_family": "DankMono Nerd Font Mono",
+  "theme": "Gentle Dark",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  }
 }
