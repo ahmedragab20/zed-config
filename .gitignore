@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# But track these specific files and directories
+!.gitignore
+!keymap.json
+!settings.json
+!settings_backup.json
+!snippets/
+!snippets/**
