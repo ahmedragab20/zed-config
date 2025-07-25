@@ -20,18 +20,26 @@
     "agent_review": true,
     "code_actions": false
   },
+  "cursor_blink": false,
+  "scroll_beyond_last_line": "off",
   "vim_mode": true,
   "vim": {
     "use_system_clipboard": "always",
     "use_smartcase_find": true,
     "highlight_on_yank_duration": 200
   },
+  "command_aliases": {
+    "W": "w",
+    "Wq": "wq",
+    "Q": "q"
+  },
   "relative_line_numbers": true,
   "project_panel": {
     "dock": "right",
     "scrollbar": null,
     "button": false,
-    "sticky_scroll": false
+    "sticky_scroll": false,
+    "folder_icons": false
   },
   "debugger": {
     "button": false
@@ -73,7 +81,7 @@
   "agent_font_size": 27,
   "buffer_font_family": "DankMono Nerd Font Mono",
   "ui_font_family": "DankMono Nerd Font Mono",
-  "theme": "Nordfox-M", // Night-M
+  "theme": "Nordfox", // Night-M
   "icon_theme": {
     "mode": "system",
     "light": "Zed (Default)",
