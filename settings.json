@@ -81,7 +81,7 @@
   "agent_font_size": 27,
   "buffer_font_family": "DankMono Nerd Font Mono",
   "ui_font_family": "DankMono Nerd Font Mono",
-  "theme": "Nordfox", // Night-M
+  "theme": "Kanso Zen (Borderless)",
   "icon_theme": {
     "mode": "system",
     "light": "Zed (Default)",
