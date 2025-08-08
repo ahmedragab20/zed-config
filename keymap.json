@@ -15,7 +15,7 @@
     {
         "context": "Workspace",
         "bindings": {
-            "cmd-r": "buffer_search::DeployReplace"
+            "cmd R": "buffer_search::DeployReplace"
         }
     },
     {
