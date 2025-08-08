@@ -1,27 +1,21 @@
 {
     "edit_predictions": {
-        "disabled_globs": [],
         "mode": "subtle",
-        "copilot": {
-            "proxy": null,
-            "proxy_no_verify": null
-        },
         "enabled_in_text_threads": false
     },
     "tabs": {
         "git_status": true
     },
     "tab_size": 4,
-    "bottom_dock_layout": null,
     "tab_bar": {
         "show_nav_history_buttons": false,
-        "show_tab_bar_buttons": false
+        "show_tab_bar_buttons": false,
+        "show": false
     },
     "toolbar": {
         "breadcrumbs": true,
         "quick_actions": false,
         "selections_menu": false,
-        "agent_review": true,
         "code_actions": false
     },
     "cursor_blink": false,
@@ -39,19 +33,41 @@
         "Qa": "qa"
     },
     "relative_line_numbers": true,
+    "hide_mouse": "on_typing",
+    "current_line_highlight": "all",
     "scrollbar": {
         "show": "never"
     },
-    "buffer_font_features": {
-        "calt": false
+    "gutter": {
+        "line_numbers": true,
+        "runnables": true,
+        "breakpoints": true,
+        "folds": true,
+        "min_line_number_digits": 4
     },
-    "current_line_highlight": "all",
+    "indent_guides": {
+        "enabled": true,
+        "line_width": 1,
+        "active_line_width": 1,
+        "coloring": "fixed",
+        "background_coloring": "disabled"
+    },
+    "git": {
+        "inline_blame": {
+            "enabled": true,
+            "min_column": 0,
+            "show_commit_summary": false
+        },
+        "hunk_style": "unstaged_hollow"
+    },
     "project_panel": {
         "dock": "right",
         "scrollbar": null,
         "button": false,
         "sticky_scroll": false,
-        "folder_icons": false
+        "folder_icons": false,
+        "default_width": 350,
+        "show_diagnostics": "errors"
     },
     "debugger": {
         "button": false
@@ -74,7 +90,6 @@
     "terminal": {
         "button": false
     },
-    "show_signature_help_after_edits": false,
     "agent": {
         "button": false,
         "always_allow_tool_actions": true,
@@ -91,12 +106,16 @@
     "ui_font_size": 27,
     "buffer_font_size": 29,
     "agent_font_size": 27,
-    "buffer_font_family": "DankMono Nerd Font Mono",
-    "ui_font_family": "DankMono Nerd Font Mono",
-    "theme": "Kanso Ink",
+    "buffer_font_family": "Dank Mono",
+    "ui_font_family": "Dank Mono",
+    "theme": "Terafox - opaque",
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
         "dark": "Zed (Default)"
-    }
+    },
+    "use_smartcase_search": true,
+    "seed_search_query_from_cursor": "selection",
+    "show_completion_documentation": true,
+    "always_treat_brackets_as_autoclosed": true
 }
