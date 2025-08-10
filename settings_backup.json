@@ -95,8 +95,8 @@
         "always_allow_tool_actions": true,
         "default_profile": "write",
         "default_model": {
-            "provider": "openai",
-            "model": "gpt-5"
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4"
         }
     },
     "features": {
