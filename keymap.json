@@ -22,7 +22,9 @@
         "context": "vim_mode == normal && Editor",
         "bindings": {
             ">": "workspace::ActivateNextPane",
-            "<": "workspace::ActivatePreviousPane"
+            "<": "workspace::ActivatePreviousPane",
+            "n": "vim::MoveToNextMatch",
+            "N": "vim::MoveToPreviousMatch"
         }
     }
 ]
