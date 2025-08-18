@@ -107,9 +107,9 @@
     "ui_font_size": 27,
     "buffer_font_size": 29,
     "agent_font_size": 27,
-    "buffer_font_family": "Dank Mono",
-    "ui_font_family": "Dank Mono",
-    "theme": "Terafox - opaque",
+    "buffer_font_family": "DankMono Nerd Font Mono",
+    "ui_font_family": "DankMono Nerd Font Mono",
+    "theme": "Xcode Default Darker",
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
