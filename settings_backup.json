@@ -31,7 +31,9 @@
         "W": "w",
         "Wq": "wq",
         "Q": "q",
-        "Qa": "qa"
+        "Qa": "qa",
+        "Qwa": "qwa",
+        "QWa": "qwa"
     },
     "relative_line_numbers": true,
     "hide_mouse": "on_typing",
@@ -93,7 +95,7 @@
     },
     "agent": {
         "button": false,
-        "always_allow_tool_actions": true,
+        "always_allow_tool_actions": false,
         "default_profile": "write",
         "default_model": {
             "provider": "zed.dev",
@@ -104,12 +106,12 @@
         "edit_prediction_provider": "zed"
     },
     "prettier": null,
-    "ui_font_size": 27,
-    "buffer_font_size": 29,
-    "agent_font_size": 27,
-    "buffer_font_family": "DankMono Nerd Font Mono",
-    "ui_font_family": "DankMono Nerd Font Mono",
-    "theme": "Xcode Default Darker",
+    "ui_font_size": 29,
+    "buffer_font_size": 31,
+    "agent_font_size": 29,
+    "buffer_font_family": ".ZedMono",
+    "ui_font_family": ".ZedMono",
+    "theme": "Hami Melon Dark",
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
