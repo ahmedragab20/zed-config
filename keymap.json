@@ -7,13 +7,6 @@
 // from the command palette.
 [
     {
-        "context": "Workspace",
-        "bindings": {
-            "shift shift": "workspace::NewSearch",
-            "cmd R": "buffer_search::DeployReplace"
-        }
-    },
-    {
         "context": "vim_mode == normal && Editor",
         "bindings": {
             ">": "workspace::ActivateNextPane",

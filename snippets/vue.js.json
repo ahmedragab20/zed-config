@@ -1,17 +1,27 @@
 {
-  "Log to console": {
-    "prefix": "clog",
-    "body": ["console.log(${1})", "$0"],
-    "description": "Logs to console"
-  },
-  "Log Error to console": {
-    "prefix": "cerr",
-    "body": ["console.error(${1})", "$0"],
-    "description": "Logs error to console"
-  },
-  "Log Warning to console": {
-    "prefix": "cwarn",
-    "body": ["console.warn(${1})", "$0"],
-    "description": "Logs warning to console"
-  }
+    "Log to console": {
+        "prefix": "clog",
+        "body": ["console.log(${1})", "$0"],
+        "description": "Logs to console"
+    },
+    "Log Error to console": {
+        "prefix": "cerr",
+        "body": ["console.error(${1})", "$0"],
+        "description": "Logs error to console"
+    },
+    "Log Warning to console": {
+        "prefix": "cwarn",
+        "body": ["console.warn(${1})", "$0"],
+        "description": "Logs warning to console"
+    },
+    "Function with parameters": {
+        "prefix": "func",
+        "body": ["function ${1}(param1, param2) {\n\t${2}\n}", "$0"],
+        "description": "Function with parameters"
+    },
+    "Function with no parameters": {
+        "prefix": "fn",
+        "body": ["function ${1}() {\n\t${2}\n}", "$0"],
+        "description": "Function with no parameters"
+    }
 }
