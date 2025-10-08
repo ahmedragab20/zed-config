@@ -1,4 +1,5 @@
 {
+    "auto_update": false,
     "edit_predictions": {
         "mode": "subtle",
         "enabled_in_text_threads": false
@@ -19,7 +20,7 @@
         "code_actions": false
     },
     "cursor_blink": false,
-    "vertical_scroll_margin": 20,
+    "vertical_scroll_margin": 5,
     "max_tabs": 7,
     "vim_mode": true,
     "vim": {
@@ -95,7 +96,7 @@
     },
     "agent": {
         "button": false,
-        "always_allow_tool_actions": false,
+        "always_allow_tool_actions": true,
         "default_profile": "write",
         "default_model": {
             "provider": "zed.dev",
@@ -105,20 +106,76 @@
     "features": {
         "edit_prediction_provider": "zed"
     },
+    // "formatter": {
+    //     "external": {
+    //         "command": "./node_modules/.bin/biome",
+    //         "arguments": [
+    //             "format",
+    //             "--write",
+    //             "--stdin-file-path={buffer_path}"
+    //         ]
+    //     }
+    // },
     "prettier": null,
     "ui_font_size": 29,
     "buffer_font_size": 31,
     "agent_font_size": 29,
     "buffer_font_family": ".ZedMono",
     "ui_font_family": ".ZedMono",
-    "theme": "Hami Melon Dark",
+    "theme": "Retrofit Dark",
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
         "dark": "Zed (Default)"
     },
-    "use_smartcase_search": true,
+    "use_smartcase_search": false,
     "seed_search_query_from_cursor": "selection",
     "show_completion_documentation": true,
-    "always_treat_brackets_as_autoclosed": true
+    "always_treat_brackets_as_autoclosed": true,
+    "experimental.theme_overrides": {
+        "search.match_background": "#00BFBF40",
+        "unreachable": "#00BFBF",
+        "players": [
+            {
+                "cursor": "#0077CC",
+                "background": "#0077CC",
+                "selection": "#0099FF40"
+            }
+        ],
+        "syntax": {
+            "boolean": {
+                "font_weight": 600,
+                "color": "#8cbcae"
+            },
+            "number": {
+                "font_weight": 600
+            },
+            "function": {
+                "font_weight": 600
+            },
+            "string": {
+                "font_style": "italic",
+                "font_weight": 400
+            },
+            "variable.special": {
+                "color": "#66B2FF",
+                "font_style": null,
+                "font_weight": null
+            },
+            "operator": {
+                "color": "#808080",
+                "font_style": null,
+                "font_weight": null
+            }
+        },
+        "element.selected": "#66B2FF30",
+        "element.active": "#66B2FF20",
+        "element.hover": "#66B2FF20",
+        "border.focused": "#66B2FFFF",
+        "border.selected": "#66B2FFCC",
+        "pane.focused_border": "#66B2FFCC",
+        "panel.focused_border": "#66B2FFCC",
+        "tab.active_background": "#1A1A1A",
+        "tab.inactive_background": "#00000000"
+    }
 }

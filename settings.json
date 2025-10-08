@@ -156,7 +156,26 @@
             "string": {
                 "font_style": "italic",
                 "font_weight": 400
+            },
+            "variable.special": {
+                "color": "#66B2FF",
+                "font_style": null,
+                "font_weight": null
+            },
+            "operator": {
+                "color": "#808080",
+                "font_style": null,
+                "font_weight": null
             }
-        }
+        },
+        "element.selected": "#66B2FF30",
+        "element.active": "#66B2FF20",
+        "element.hover": "#66B2FF20",
+        "border.focused": "#66B2FFFF",
+        "border.selected": "#66B2FFCC",
+        "pane.focused_border": "#66B2FFCC",
+        "panel.focused_border": "#66B2FFCC",
+        "tab.active_background": "#1A1A1A",
+        "tab.inactive_background": "#00000000"
     }
 }
