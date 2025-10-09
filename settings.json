@@ -151,11 +151,17 @@
                 "font_weight": 600
             },
             "function": {
+                "font_weight": 600,
+                "color": "#a47a5c"
+            },
+            "function.method": {
+                "color": "#908a52",
+                "font_style": "italic",
                 "font_weight": 600
             },
             "string": {
                 "font_style": "italic",
-                "font_weight": 400
+                "color": "#8f8c72"
             },
             "variable.special": {
                 "color": "#66B2FF",
@@ -166,6 +172,13 @@
                 "color": "#808080",
                 "font_style": null,
                 "font_weight": null
+            },
+            "type": {
+                "font_weight": 600,
+                "color": "#356f85"
+            },
+            "punctuation.delimiter": {
+                "font_weight": 600
             }
         },
         "element.selected": "#66B2FF30",
@@ -176,6 +189,7 @@
         "pane.focused_border": "#66B2FFCC",
         "panel.focused_border": "#66B2FFCC",
         "tab.active_background": "#1A1A1A",
-        "tab.inactive_background": "#00000000"
+        "tab.inactive_background": "#00000000",
+        "editor.active_line_number": "#0077CC"
     }
 }
