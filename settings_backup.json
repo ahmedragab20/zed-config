@@ -116,13 +116,11 @@
     //         ]
     //     }
     // },
-    "prettier": null,
-    "ui_font_size": 29,
-    "buffer_font_size": 31,
-    "agent_font_size": 29,
+    "ui_font_size": 30,
+    "buffer_font_size": 32,
     "buffer_font_family": ".ZedMono",
     "ui_font_family": ".ZedMono",
-    "theme": "Retrofit Dark",
+    "theme": "Serendipity Sunset",
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
@@ -133,63 +131,70 @@
     "show_completion_documentation": true,
     "always_treat_brackets_as_autoclosed": true,
     "experimental.theme_overrides": {
-        "search.match_background": "#00BFBF40",
-        "unreachable": "#00BFBF",
+        // "search.match_background": "#00BFBF40",
+        // "unreachable": "#00BFBF",
         "players": [
             {
-                "cursor": "#0077CC",
+                "cursor": "#2865ff",
                 "background": "#0077CC",
                 "selection": "#0099FF40"
             }
         ],
         "syntax": {
             "boolean": {
-                "font_weight": 600,
-                "color": "#8cbcae"
+                "color": "#8a99d0"
             },
-            "number": {
+            "variable": {
                 "font_weight": 600
+            },
+            //     "number": {
+            //         "color": "#cf9a81",
+            //         "font_style": "italic"
+            //     },
+            "type": {
+                "color": "#be7775",
+                "font_weight": 600
+            },
+            "comment": {
+                "color": "#798879"
             },
             "function": {
-                "font_weight": 600,
-                "color": "#a47a5c"
+                "color": "#c3aeae",
+                "font_weight": 600
             },
             "function.method": {
-                "color": "#908a52",
-                "font_style": "italic",
-                "font_weight": 600
+                "color": "#c4726f",
+                "font_style": "italic"
             },
             "string": {
-                "font_style": "italic",
-                "color": "#8f8c72"
-            },
-            "variable.special": {
-                "color": "#66B2FF",
-                "font_style": null,
-                "font_weight": null
-            },
-            "operator": {
-                "color": "#808080",
-                "font_style": null,
-                "font_weight": null
-            },
-            "type": {
-                "font_weight": 600,
-                "color": "#356f85"
-            },
-            "punctuation.delimiter": {
-                "font_weight": 600
+                "color": "#8890a8",
+                "font_style": "italic"
             }
-        },
-        "element.selected": "#66B2FF30",
-        "element.active": "#66B2FF20",
-        "element.hover": "#66B2FF20",
-        "border.focused": "#66B2FFFF",
-        "border.selected": "#66B2FFCC",
-        "pane.focused_border": "#66B2FFCC",
-        "panel.focused_border": "#66B2FFCC",
-        "tab.active_background": "#1A1A1A",
-        "tab.inactive_background": "#00000000",
-        "editor.active_line_number": "#0077CC"
+            // "variable": {
+            //     "color": "#ffffff",
+            //     "font_style": "italic",
+            //     "font_weight": 600
+            // },
+            //     "operator": {
+            //         "color": "#808080",
+            //         "font_style": null,
+            //         "font_weight": null
+            //     },
+            //     "type": {
+            //         "font_style": "italic"
+            //     },
+            //     "punctuation.delimiter": {
+            //         "font_weight": 600
+            //     }
+        }
+        // "element.selected": "#66B2FF30",
+        // "element.active": "#66B2FF20",
+        // "element.hover": "#66B2FF20",
+        // "border.focused": "#66B2FFFF",
+        // "border.selected": "#66B2FFCC",
+        // "pane.focused_border": "#66B2FFCC",
+        // "panel.focused_border": "#66B2FFCC",
+        // "tab.active_background": "#1A1A1A",
+        // "tab.inactive_background": "#00000000"
     }
 }
