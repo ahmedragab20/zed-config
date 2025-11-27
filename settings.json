@@ -1,11 +1,16 @@
 {
+    "prettier": {
+        // "allowed": true
+    },
+    "redact_private_values": false,
+    "auto_signature_help": false,
+    "auto_indent": true,
     "minimap": {
         "max_width_columns": 70
     },
     "show_signature_help_after_edits": false,
-    "confirm_quit": true,
     "inlay_hints": {
-        "enabled": true
+        "enabled": false
     },
     "soft_wrap": "none",
     "hard_tabs": false,
@@ -34,7 +39,9 @@
         "cursor_position_button": true,
         "active_language_button": true
     },
-    "file_finder": {},
+    "file_finder": {
+        "file_icons": false
+    },
     "telemetry": {
         "diagnostics": false,
         "metrics": false
@@ -78,10 +85,14 @@
         "Qwa": "qwa",
         "QWa": "qwa"
     },
-    "relative_line_numbers": true,
+    "relative_line_numbers": "enabled",
     "hide_mouse": "on_typing",
     "current_line_highlight": "all",
     "scrollbar": {
+        "axes": {
+            "vertical": false,
+            "horizontal": false
+        },
         "show": "never"
     },
     "gutter": {
@@ -143,83 +154,78 @@
         "button": false
     },
     "agent": {
-        "enable_feedback": false,
-        "play_sound_when_agent_done": true,
-        "button": false,
-        "always_allow_tool_actions": true,
         "default_profile": "write",
+        "always_allow_tool_actions": true,
         "default_model": {
             "provider": "zed.dev",
-            "model": "claude-opus-4-thinking"
-        }
+            "model": "claude-sonnet-4-5"
+        },
+        "model_parameters": []
     },
     "features": {
         "edit_prediction_provider": "zed"
     },
-    // "formatter": {
-    //     "external": {
-    //         "command": "./node_modules/.bin/biome",
-    //         "arguments": [
-    //             "format",
-    //             "--write",
-    //             "--stdin-file-path={buffer_path}"
-    //         ]
-    //     }
-    // },
-    "ui_font_size": 35,
-    "buffer_font_size": 38,
-    "buffer_font_family": ".ZedMono",
-    "ui_font_family": ".ZedMono",
-    "theme": "One Dark",
+    "ui_font_size": 30,
+    "buffer_font_size": 36,
+    "buffer_font_family": "DankMono Nerd Font Mono",
+    "ui_font_family": "DankMono Nerd Font Mono",
+    "theme": "Nord Dark",
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
         "dark": "Zed (Default)"
     },
-    "use_smartcase_search": false,
+    "use_smartcase_search": true,
     "seed_search_query_from_cursor": "selection",
     "show_completion_documentation": true,
     "always_treat_brackets_as_autoclosed": true,
     "experimental.theme_overrides": {
-        // "search.match_background": "#00BFBF40",
-        // "unreachable": "#00BFBF",
+        "vim.mode.text": "#2a2734",
+        "vim.normal.background": "#98A1BC",
+        "vim.insert.background": "#9BC09C",
+        "vim.visual.background": "#ffe066",
+        "vim.replace.background": "#ff6363",
+        "vim.visual_line.background": "#F5C45E",
+        "vim.visual_block.background": "#F79B72",
+        "vim.helix_select.background": "#f5ede9",
+        "vim.helix_normal.background": "#95b8d1",
         "players": [
-            {
-                "cursor": "#2865ff",
-                "background": "#0077CC",
-                "selection": "#0099FF40"
-            }
+            // {
+            //     "cursor": "#2865ff",
+            //     "background": "#0077CC",
+            //     "selection": "#0099FF40"
+            // }
         ]
         // "syntax": {
-        //     "boolean": {
-        //         "color": "#8a99d0"
-        //     },
-        //     "variable": {
-        //         "font_weight": 600
-        //     },
-        //     //     "number": {
-        //     //         "color": "#cf9a81",
-        //     //         "font_style": "italic"
-        //     //     },
-        //     "type": {
-        //         "color": "#be7775",
-        //         "font_weight": 600
-        //     },
-        //     "comment": {
-        //         "color": "#798879"
-        //     },
-        //     "function": {
-        //         "color": "#c3aeae",
-        //         "font_weight": 600
-        //     },
-        //     "function.method": {
-        //         "color": "#c4726f",
-        //         "font_style": "italic"
-        //     },
-        //     "string": {
-        //         "color": "#8890a8",
-        //         "font_style": "italic"
-        //     }
+        //     // "boolean": {
+        //     //     "color": "#8a99d0"
+        //     // }
+        //     // "variable": {
+        //     //     "font_weight": 600
+        //     // },
+        //     // "number": {
+        //     //     "color": "#cf9a81",
+        //     //     "font_style": "italic"
+        //     // },
+        //     // "type": {
+        //     //     "color": "#A6D6D6"
+        //     //     "font_weight": 600
+        //     // },
+        //     // "comment": {
+        //     //     "color": "#456882"
+        //     // },
+        //     // "function": {
+        //     //     // "color": "#F9B487",
+        //     //     // "font_weight": 500
+        //     // },
+        //     // "function.method": {
+        //     //     "color": "#F38C79",
+        //     //     "font_style": "italic"
+        //     // },
+        //     // "string": {
+        //     //     "color": "#8890a8",
+        //     //     "font_style": "italic"
+        //     // }
         //     // "variable": {
         //     //     "color": "#ffffff",
         //     //     "font_style": "italic",
@@ -230,21 +236,9 @@
         //     //         "font_style": null,
         //     //         "font_weight": null
         //     //     },
-        //     //     "type": {
-        //     //         "font_style": "italic"
-        //     //     },
         //     //     "punctuation.delimiter": {
         //     //         "font_weight": 600
         //     //     }
         // }
-        // "element.selected": "#66B2FF30",
-        // "element.active": "#66B2FF20",
-        // "element.hover": "#66B2FF20",
-        // "border.focused": "#66B2FFFF",
-        // "border.selected": "#66B2FFCC",
-        // "pane.focused_border": "#66B2FFCC",
-        // "panel.focused_border": "#66B2FFCC",
-        // "tab.active_background": "#1A1A1A",
-        // "tab.inactive_background": "#00000000"
     }
 }
